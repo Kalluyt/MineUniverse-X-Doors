@@ -1,0 +1,11 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("MineUniverse X Doors", "Synapse")
+
+local Tab = Window:NewTab("MineUniverse X Doors")
+local Section = Tab:NewSection("MineUniverse Doors Script")
+
+
+Section:NewButton("Anti lagg", "?Anti lag", function()
+for aa,Q in pairs(game:GetService("Workspace"):GetDescendants())do if Q:IsA("BasePart")and not Q.Parent:FindFirstChild("Humanoid")then Q.Material=
+end
+end)
